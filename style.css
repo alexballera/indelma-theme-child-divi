@@ -553,6 +553,9 @@ Version: 3.0.42
     .et_pb_text_8 {
         border-left: 0 !important;
     }
+    .parrafo-linea-telefonica {
+        border-left: 1px solid white !important;
+    }
 }
 
 #home-trabaja-texto p:first-child {
