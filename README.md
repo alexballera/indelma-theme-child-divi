@@ -1,1 +1,1 @@
-# wp-indelma
+# Contrucción de Tema Child Divi para Indelma
