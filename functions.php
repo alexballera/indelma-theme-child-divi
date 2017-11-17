@@ -12,6 +12,9 @@
 * Also if the parent theme supports pluggable functions you can use function_exists( 'put_the_function_name_here' ) checks.
 */
 
+/* Oculta la barra de administración */
+add_filter( 'show_admin_bar', '__return_false' );
+
 /**
  * Loads parent and child themes' style.css
  */
@@ -33,14 +36,14 @@ function orbisius_ctc_divi_child_theme_enqueue_styles() {
 
 }
 
-    function wpb_adding_scripts() {
+function wpb_adding_scripts() {
 
-        wp_register_script('mi_script', get_stylesheet_directory_uri(). '/js/history.min.js', __FILE__);
-        wp_enqueue_script('mi_script');
+    wp_register_script('mi_script', get_stylesheet_directory_uri(). '/js/history.min.js', __FILE__);
+    wp_enqueue_script('mi_script');
 
-        wp_register_script('custom_script', get_stylesheet_directory_uri(). '/js/custom.js', __FILE__);
-        wp_enqueue_script('custom_script');
-   };
+    wp_register_script('custom_script', get_stylesheet_directory_uri(). '/js/custom.js', __FILE__);
+    wp_enqueue_script('custom_script');
+};
 
 add_action( 'wp_enqueue_scripts', 'orbisius_ctc_divi_child_theme_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
