@@ -73,7 +73,7 @@ function main () {
 
     function initHome () {
       homeBannerTexto2.style.display = 'none'
-      homeBannerTexto.style.top = '32px'
+      homeBannerTexto.style.top = '100px'
 
       homeBoton.addEventListener('click', showText2)
       homeBotonClose.addEventListener('click', showHome)
@@ -81,7 +81,7 @@ function main () {
     function initSomos () {
       somosBannerText4.style.display = 'none'
       somosBannerText5.style.display = 'none'
-      homeBannerTexto.style.top = '12px'
+      homeBannerTexto.style.top = '150px'
 
       somosBotonClose.addEventListener('click', showHome)
       somosBotonNextText4.addEventListener('click', showText4)
