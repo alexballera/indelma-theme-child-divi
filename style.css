@@ -828,6 +828,26 @@ Version: 3.0.42
 
 /* Aplicaciones Items */
 
+#cereales .et_pb_fullwidth_header_container {
+    margin-top: 0;
+}
+@media (min-width: 981px) {
+    #cereales .et_pb_fullwidth_header_container {
+        margin-top: 2%;
+    }
+}
+#reposteria .et_pb_fullwidth_header_container {
+    margin-top: 15%;
+}
+@media (min-width: 981px) {
+    #reposteria .et_pb_fullwidth_header_container {
+        margin-top: 7%;
+    }
+}
+#galletas .et_pb_fullwidth_header_container {
+    margin-top: 4%;
+}
+
 .contenedor-aplicacion-item {
     position: relative;
 }
@@ -865,12 +885,17 @@ Version: 3.0.42
 
 @media (min-width: 981px) {
     .aplicaciones-items .header-content table {
-        margin-left: 2rem;
-        width: 30% !important;
+        width: 35% !important;
     }
     .aplicaciones-items .header-content th,
     .aplicaciones-items .header-content td {
         font-size: 1.1rem;
+    }
+
+    .aplicaciones-alimentos-tabla-texto .aplicaciones-items-subtitulo,
+    .aplicaciones-alimentos-tabla-texto .aplicaciones-items-contenido {
+        line-height: 1.5rem;
+        letter-spacing: 1px;
     }
 }
 
@@ -907,6 +932,12 @@ Version: 3.0.42
 
 .trabaja-valores-images picture {
     text-align: center;
+}
+
+.atc-contenido-texto {
+    font-weight: 400 !important;
+    letter-spacing: 1.2px;
+    line-height: 1.5em;
 }
 
 @media (min-width: 981px) {
