@@ -956,14 +956,17 @@ Version: 3.0.42
 .trabaja-imagen-igualdad img,
 .trabaja-imagen-capacitacion img {
     height: 370px;
+    width: 370px !important;
 }
 
 .trabaja-imagen-seguridad img {
     height: 400px;
+    width: 370px !important;
 }
 
 .trabaja-imagen-calidad img {
     height: 470px;
+    width: 470px !important;
 }
 
 .trabaja-responsabilidad #home-trabaja-img {
