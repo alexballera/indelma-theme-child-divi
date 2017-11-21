@@ -1197,6 +1197,7 @@ Version: 3.0.42
 }
 
 #top-menu {
+    display: flex;
     height: 108px;
 }
 
@@ -1209,13 +1210,14 @@ Version: 3.0.42
     display: none;
 }
 
-#top-menu li.current-menu-item a {
-    background-color: #FFE94C;
+#top-menu li.current-menu-item a,
+#top-menu li.current-page-ancestor a {
+    background-color: #F7D600;
 }
 
 #top-menu li a {
     display: block;
-    height: 107px;
+    height: 108px;
     line-height: 108px;
     padding: 0 1rem !important;
 }
