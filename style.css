@@ -123,7 +123,7 @@ Version: 3.0.42
     font-size: 16px;
     background-color: #f7cb31 !important;
     background-image: url('search.png');
-    background-position: 10px 10px;
+    background-position: 22px 40px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 50px !important;
     -webkit-transition: width 0.4s ease-in-out;
@@ -1190,3 +1190,37 @@ Version: 3.0.42
 .et_pb_toggle_open .et_pb_toggle_title:before {
     content: "\2329";
 }
+
+/* Barra de Navegación */
+.et_header_style_left #et-top-navigation {
+    padding: 0 !important;
+}
+
+#top-menu {
+    height: 108px;
+}
+
+#top-menu li {
+    padding: 0;
+}
+
+#top-menu li.current-menu-item:before {
+    display: none;
+}
+
+#top-menu li.current-menu-item a {
+    background-color: #FFE94C;
+}
+
+#top-menu li a {
+    display: block;
+    line-height: 108px;
+    padding: 0 1rem !important;
+}
+
+#top-menu li form #s {
+    padding-bottom: 54px !important;
+    padding-top: 54px !important;
+}
+
+
