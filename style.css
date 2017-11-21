@@ -1201,6 +1201,7 @@ Version: 3.0.42
 }
 
 #top-menu li {
+    height: 108px;
     padding: 0;
 }
 
@@ -1214,6 +1215,7 @@ Version: 3.0.42
 
 #top-menu li a {
     display: block;
+    height: 107px;
     line-height: 108px;
     padding: 0 1rem !important;
 }
