@@ -1044,46 +1044,6 @@ Version: 3.0.42
     padding-left: 0 !important;
 }
 
-.et_pb_contact_field_10 {
-    top: 35px;
-}
-
-.et_pb_contact_field_11 {
-    top: 23px;
-}
-
-.et_pb_contact_field_12 {
-    margin-top: 0px;
-    position: relative;
-    top: 15px;
-}
-
-.et_contact_bottom_container {
-    position: relative;
-    top: 10px;
-}
-
-.et_pb_contact_field_0,
-.et_pb_contact_field_1,
-.et_pb_contact_field_2,
-.et_pb_contact_field_3,
-.et_pb_contact_field_4,
-.et_pb_contact_field_5,
-.et_pb_contact_field_6,
-.et_pb_contact_field_7,
-.et_pb_contact_field_8,
-.et_pb_contact_field_9 {
-    margin-bottom: 0 !important;
-}
-
-.et_pb_contact_field_4 {
-    margin-top: 3rem;
-}
-
-.et_pb_contact_field_9 {
-    margin-bottom: 3.25rem;
-}
-
 @media (min-width: 768px) {
     .et_pb_contact_field_1,
     .et_pb_contact_field_3,
@@ -1126,61 +1086,6 @@ Version: 3.0.42
     .et_pb_contact_field_12 input {
         padding-bottom: 16px !important;
         padding-top: 16px !important;
-    }
-    .et_pb_contact_field_4,
-    .et_pb_contact_field_5 {
-        margin-top: 5.5rem;
-    }
-    .et_pb_contact_field_2,
-    .et_pb_contact_field_3,
-    .et_pb_contact_field_6,
-    .et_pb_contact_field_7,
-    .et_pb_contact_field_8,
-    .et_pb_contact_field_9 {
-        margin-top: 1rem;
-    }
-    .et_pb_contact_field_10 {
-        top: 52px;
-    }
-    .et_pb_contact_field_11 {
-        top: 38px;
-    }
-    .et_pb_contact_field_12 {
-        top: 24px;
-    }
-    .et_contact_bottom_container {
-        top: 12px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .et_pb_contact_field_0,
-    .et_pb_contact_field_1 {
-        margin-top: 1rem;
-    }
-    .et_pb_contact_field_10 {
-        top: 55px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .et_pb_contact_field_10 {
-        top: 65px;
-    }
-    .et_pb_contact_field_11 {
-        top: 45px;
-    }
-}
-
-@media (min-width: 1324px) {
-    .et_pb_contact_field_10 {
-        top: 80px;
-    }
-    .et_pb_contact_field_11 {
-        top: 55px;
-    }
-    .et_pb_contact_field_12 {
-        top: 30px;
     }
 }
 
