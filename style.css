@@ -453,6 +453,16 @@ Version: 3.0.42
     min-width: 100%;
 }
 
+@media (min-width: 768px) {
+    #home-banner-texto,
+    #home-banner-texto3 {
+        width: 50%;
+    }
+
+    #somos-header-texto2 {
+        margin-top: 100px;
+    }
+}
 
 /* #home-banner-texto2 {
     display: none;
@@ -566,7 +576,7 @@ Version: 3.0.42
         border-left: 1px solid #f7cb31 !important;
     }
     .parrafo-linea-telefonica {
-        border-left: 1px solid white !important;
+        border: 1px solid white !important;
     }
 }
 
@@ -1103,6 +1113,11 @@ Version: 3.0.42
 /* Barra de Navegación */
 .et_header_style_left #et-top-navigation {
     padding: 0 !important;
+}
+@media (max-width: 768px) {
+    #top-menu-nav {
+        display: none;    
+    }
 }
 
 #top-menu {

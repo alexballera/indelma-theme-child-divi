@@ -5,7 +5,7 @@ function main () {
 
   function onDOMLoad () {
     var pathname = window.location.pathname
-    var dir = '/indelmadev'
+    var dir = ''
     var pathnameHome = '/'
     var pathnameSomos = '/quienes-somos/'
     var pathnameTrabaja = '/trabaja-con-nosotros/'
@@ -162,7 +162,7 @@ function main () {
     }
     function showTrabajaClima2 (e) {
       e.preventDefault()
-      trabajaClima.style.backgroundImage = 'url(http://equilibrio2.laagenciadigital.com/indelmadev/wp-content/uploads/2017/11/img-nuestroclima-desplegado.jpg)'
+      trabajaClima.style.backgroundImage = 'url(http://indelma.com.ve/wp-content/uploads/2017/11/img-nuestroclima-desplegado.jpg)'
       trabajaClima.style.height = '500px'
       trabajaClima.childNodes[1].style.display = 'none'
       trabajaClima2.style.display = 'block'
@@ -170,12 +170,12 @@ function main () {
     function hideTrabajaClima2 (e) {
       e.preventDefault()
       trabajaClima.childNodes[1].style.display = 'block'
-      trabajaClima.style.backgroundImage = 'url(http://equilibrio2.laagenciadigital.com/indelmadev/wp-content/uploads/2017/09/img-nuestroclima-verde.png)'
+      trabajaClima.style.backgroundImage = 'url(http://indelma.com.ve/wp-content/uploads/2017/09/img-nuestroclima-verde.png)'
       trabajaClima2.style.display = 'none'
     }
     function showTrabajaFilosofia2 (e) {
       e.preventDefault()
-      trabajaFilosofia.style.backgroundImage = 'url(http://equilibrio2.laagenciadigital.com/indelmadev/wp-content/uploads/2017/11/img-nuestroclima-desplegado.jpg)'
+      trabajaFilosofia.style.backgroundImage = 'url(http://indelma.com.ve/wp-content/uploads/2017/11/img-nuestrafilosofia2.jpg)'
       trabajaFilosofia.style.height = '500px'
       trabajaFilosofia.childNodes[1].style.display = 'none'
       trabajaFilosofia2.style.display = 'block'
@@ -183,7 +183,7 @@ function main () {
     function hideTrabajaFilosofia2 (e) {
       e.preventDefault()
       trabajaFilosofia.childNodes[1].style.display = 'block'
-      trabajaFilosofia.style.backgroundImage = 'url(http://equilibrio2.laagenciadigital.com/indelmadev/wp-content/uploads/2017/09/img-nuestrafilosofia-verde.png)'
+      trabajaFilosofia.style.backgroundImage = 'url(http://indelma.com.ve/wp-content/uploads/2017/09/img-nuestrafilosofia-verde.png)'
       trabajaFilosofia2.style.display = 'none'
     }
 

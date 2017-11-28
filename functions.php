@@ -28,12 +28,6 @@ function orbisius_ctc_divi_child_theme_enqueue_styles() {
         wp_get_theme( $parent_base_dir ) ? wp_get_theme( $parent_base_dir )->get('Version') : ''
     );
 
-    wp_enqueue_style( $parent_style . '_child_style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( $parent_style ),
-        wp_get_theme()->get('Version')
-    );
-
 }
 
 function wpb_adding_scripts() {
