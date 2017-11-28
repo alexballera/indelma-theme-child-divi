@@ -805,6 +805,10 @@ Version: 3.0.42
 
 
 /* APLICACIONES */
+.et_pb_fullwidth_header_container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
 .aplicaciones-container .et_pb_row {
     display: flex;
