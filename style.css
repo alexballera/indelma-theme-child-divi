@@ -916,7 +916,20 @@ Version: 3.0.42
     text-align: right;
 }
 
-
+@media (min-width: 768px) {
+    .aplicaciones-dulces-conservas .et_pb_fullwidth_header_container {
+      padding-top: 5%;
+    }
+    .aplicaciones-dulces-siropes .et_pb_fullwidth_header_container {
+        padding-top: 6%;
+    }
+}
+@media (min-width: 1024px) {
+    .aplicaciones-dulces-conservas .et_pb_fullwidth_header_container,
+    .aplicaciones-dulces-siropes .et_pb_fullwidth_header_container {
+        padding-top: 3%;
+    }
+}
 /* TRABAJA CON NOSOTROS */
 
 #trabaja-clima table {
