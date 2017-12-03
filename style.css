@@ -930,6 +930,12 @@ Version: 3.0.42
         padding-top: 3%;
     }
 }
+@media (min-width: 1024px) {
+    .titulo-refineria-glucosa h1 {
+        padding-left: 75px;
+    }
+}
+
 /* TRABAJA CON NOSOTROS */
 
 #trabaja-clima table {
