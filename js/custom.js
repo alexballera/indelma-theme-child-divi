@@ -11,16 +11,16 @@ function main () {
     var pathnameTrabaja = '/trabaja-con-nosotros/'
     var homeBanner = document.getElementById('home-banner')
 
-    if (pathname === dir + pathnameHome || pathname === dir + pathnameSomos) {
+    if (pathname === dir + pathnameHome) {
+    }
+
+    if (pathname === dir + pathnameSomos) {
       var homeBannerTexto = homeBanner.childNodes[1]
       var homeBannerTexto2 = homeBanner.childNodes[4]
       var homeBotonClose = homeBannerTexto2.childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[0]
       var homeBannerTexto3 = homeBanner.childNodes[7]
       var homeBoton = homeBannerTexto3.childNodes[1].childNodes[4].childNodes[1]
       initHome()
-    }
-
-    if (pathname === dir + pathnameSomos) {
       var somosBotonClose = homeBannerTexto2.childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[0]
       var somosBotonNextText4 = homeBannerTexto2.childNodes[1].childNodes[1].childNodes[1].childNodes[3].childNodes[9]
 
