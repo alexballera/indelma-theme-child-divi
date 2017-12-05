@@ -12,6 +12,161 @@ function main () {
     var homeBanner = document.getElementById('home-banner')
 
     if (pathname === dir + pathnameHome) {
+      var homeHeaderTitulo = document.getElementById('home-header-titulo')
+      var homeHeaderTexto1 = document.getElementById('home-header-texto1')
+      var homeHeaderTexto2 = document.getElementById('home-header-texto2')
+      var homeHeaderBg = document.getElementById('home-header-bg')
+      var homeHeaderBotonMas = document.getElementById('home-header-boton-mas')
+      var homeHeaderBotonCerrar = document.getElementById('home-header-boton-cerrar')
+
+      var homeHeaderTitulo2 = document.getElementById('home-header-titulo-2')
+      var homeHeaderTexto12 = document.getElementById('home-header-texto1-2')
+      var homeHeaderTexto22 = document.getElementById('home-header-texto2-2')
+      var homeHeaderBg2 = document.getElementById('home-header-bg-2')
+      var homeHeaderBotonMas2 = document.getElementById('home-header-boton-mas-2')
+      var homeHeaderBotonCerrar2 = document.getElementById('home-header-boton-cerrar-2')
+
+      var homeHeaderTitulo3 = document.getElementById('home-header-titulo-3')
+      var homeHeaderTexto13 = document.getElementById('home-header-texto1-3')
+      var homeHeaderTexto23 = document.getElementById('home-header-texto2-3')
+      var homeHeaderBg3 = document.getElementById('home-header-bg-3')
+      var homeHeaderBotonMas3 = document.getElementById('home-header-boton-mas-3')
+      var homeHeaderBotonCerrar3 = document.getElementById('home-header-boton-cerrar-3')
+
+      var homeHeaderTitulo4 = document.getElementById('home-header-titulo-4')
+      var homeHeaderTexto14 = document.getElementById('home-header-texto1-4')
+      var homeHeaderTexto24 = document.getElementById('home-header-texto2-4')
+      var homeHeaderBg4 = document.getElementById('home-header-bg-4')
+      var homeHeaderBotonMas4 = document.getElementById('home-header-boton-mas-4')
+      var homeHeaderBotonCerrar4 = document.getElementById('home-header-boton-cerrar-4')
+
+      var homeHeaderTitulo5 = document.getElementById('home-header-titulo-5')
+      var homeHeaderTexto15 = document.getElementById('home-header-texto1-5')
+      var homeHeaderTexto25 = document.getElementById('home-header-texto2-5')
+      var homeHeaderBg5 = document.getElementById('home-header-bg-5')
+      var homeHeaderBotonMas5 = document.getElementById('home-header-boton-mas-5')
+      var homeHeaderBotonCerrar5 = document.getElementById('home-header-boton-cerrar-5')
+
+      initHomeSlider()
+      initHomeSlider2()
+      initHomeSlider3()
+      initHomeSlider4()
+      initHomeSlider5()
+    }
+
+    function initHomeSlider () {
+      homeHeaderTexto2.style.display = 'none'
+      homeHeaderBg.style.display = 'none'
+      homeHeaderTitulo.style.top = '100px'
+
+      homeHeaderBotonMas.addEventListener('click', showTexto1)
+      homeHeaderBotonCerrar.addEventListener('click', showHomeSlider1)
+    }
+    function showHomeSlider1 (e) {
+      e.preventDefault()
+      homeHeaderTitulo.style.display = 'block'
+      homeHeaderTexto1.style.display = 'block'
+      homeHeaderTexto2.style.display = 'none'
+      homeHeaderBg.style.display = 'none'
+    }
+    function showTexto1 (e) {
+      e.preventDefault()
+      homeHeaderTitulo.style.display = 'none'
+      homeHeaderTexto1.style.display = 'none'
+      homeHeaderTexto2.style.display = 'block'
+      homeHeaderBg.style.display = 'block'
+    }
+
+    function initHomeSlider2 () {
+      homeHeaderTexto22.style.display = 'none'
+      homeHeaderBg2.style.display = 'none'
+      homeHeaderTitulo2.style.top = '100px'
+
+      homeHeaderBotonMas2.addEventListener('click', showTexto2)
+      homeHeaderBotonCerrar2.addEventListener('click', showHomeSlider2)
+    }
+    function showHomeSlider2 (e) {
+      e.preventDefault()
+      homeHeaderTitulo2.style.display = 'block'
+      homeHeaderTexto12.style.display = 'block'
+      homeHeaderTexto22.style.display = 'none'
+      homeHeaderBg2.style.display = 'none'
+    }
+    function showTexto2 (e) {
+      e.preventDefault()
+      homeHeaderTitulo2.style.display = 'none'
+      homeHeaderTexto12.style.display = 'none'
+      homeHeaderTexto22.style.display = 'block'
+      homeHeaderBg2.style.display = 'block'
+    }
+
+    function initHomeSlider3 () {
+      homeHeaderTexto23.style.display = 'none'
+      homeHeaderBg3.style.display = 'none'
+      homeHeaderTitulo3.style.top = '100px'
+
+      homeHeaderBotonMas3.addEventListener('click', showTexto3)
+      homeHeaderBotonCerrar3.addEventListener('click', showHomeSlider3)
+    }
+    function showHomeSlider3 (e) {
+      e.preventDefault()
+      homeHeaderTitulo3.style.display = 'block'
+      homeHeaderTexto13.style.display = 'block'
+      homeHeaderTexto23.style.display = 'none'
+      homeHeaderBg3.style.display = 'none'
+    }
+    function showTexto3 (e) {
+      e.preventDefault()
+      homeHeaderTitulo3.style.display = 'none'
+      homeHeaderTexto13.style.display = 'none'
+      homeHeaderTexto23.style.display = 'block'
+      homeHeaderBg3.style.display = 'block'
+    }
+
+    function initHomeSlider4 () {
+      homeHeaderTexto24.style.display = 'none'
+      homeHeaderBg4.style.display = 'none'
+      homeHeaderTitulo4.style.top = '100px'
+
+      homeHeaderBotonMas4.addEventListener('click', showTexto4)
+      homeHeaderBotonCerrar4.addEventListener('click', showHomeSlider4)
+    }
+    function showHomeSlider4 (e) {
+      e.preventDefault()
+      homeHeaderTitulo4.style.display = 'block'
+      homeHeaderTexto14.style.display = 'block'
+      homeHeaderTexto24.style.display = 'none'
+      homeHeaderBg4.style.display = 'none'
+    }
+    function showTexto4 (e) {
+      e.preventDefault()
+      homeHeaderTitulo4.style.display = 'none'
+      homeHeaderTexto14.style.display = 'none'
+      homeHeaderTexto24.style.display = 'block'
+      homeHeaderBg4.style.display = 'block'
+    }
+
+    function initHomeSlider5 () {
+      homeHeaderTexto25.style.display = 'none'
+      homeHeaderBg5.style.display = 'none'
+      homeHeaderTitulo5.style.top = '100px'
+
+      homeHeaderBotonMas5.addEventListener('click', showTexto5)
+      homeHeaderBotonCerrar5.addEventListener('click', showHomeSlider5)
+    }
+    function showHomeSlider5 (e) {
+      e.preventDefault()
+      homeHeaderTitulo5.style.display = 'block'
+      homeHeaderTexto15.style.display = 'block'
+      homeHeaderTexto25.style.display = 'none'
+      homeHeaderBg5.style.display = 'none'
+    }
+    function showTexto5 (e) {
+      e.preventDefault()
+      homeHeaderTitulo5.style.display = 'none'
+      homeHeaderTexto15.style.display = 'none'
+      homeHeaderTexto25.style.display = 'block'
+      homeHeaderBg5.style.display = 'block'
     }
 
     if (pathname === dir + pathnameSomos) {
