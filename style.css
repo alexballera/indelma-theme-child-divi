@@ -1169,4 +1169,68 @@ Version: 3.0.42
     padding-top: 54px !important;
 }
 
+/* REV SLIDER */
 
+.home-header {
+    padding: 5% 0;
+}
+
+.home-header-titulo-container {
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+.home-header-titulo,
+.home-header-texto {
+    text-align: center !important;
+}
+
+.home-header-titulo {
+    background-color: rgba(0,0,0, .6);
+    padding: 1rem;
+}
+
+.home-header-titulo p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.home-header-titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+.home-header-texto {
+    margin-top: 2rem;
+}
+
+.home-header-texto p {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    letter-spacing: 1px !important;
+}
+
+.x-close-image {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.home-header-button {
+    margin-top: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .home-header {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 70%;
+    }
+}
+@media (min-width: 1024px) {
+    .home-header {
+        width: 50%;
+    }
+}
